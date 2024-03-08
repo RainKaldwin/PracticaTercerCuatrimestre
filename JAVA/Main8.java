@@ -1,3 +1,4 @@
+package JAVA;
 public class Main8 {
     // Static method
     static void myStaticMethod() {

@@ -1,3 +1,4 @@
+package JAVA;
 public class MainAuto {
     
     public void maximaVelocidad(){
