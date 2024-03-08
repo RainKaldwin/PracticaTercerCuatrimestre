@@ -1,4 +1,4 @@
-package JAVA;
+package w3School.JAVA.Notas;
 public class Main{
     public static void main (String[]ars){
         //podemos escribir strings con ""

@@ -1,4 +1,4 @@
-package JAVA;
+package w3School.JAVA.Notas;
 public class Main4 {
     public static void main(String[] args) {
         

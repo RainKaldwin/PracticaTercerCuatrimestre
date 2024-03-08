@@ -1,4 +1,4 @@
-package JAVA;
+package w3School.JAVA.Notas;
 public class MainConstructor {
     int x;
 
