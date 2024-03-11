@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "w3School.JAVA.Notas.Arrays",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "ManejoFecha",
+            "request": "launch",
+            "mainClass": "w3School.JAVA.Notas.ManejoFecha",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
