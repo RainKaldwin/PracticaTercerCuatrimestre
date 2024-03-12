@@ -1,0 +1,13 @@
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #000000;
+    vertical-align: bottom;
+  
+  }
+  input:focus {
+    border-color: blue;
+    outline: 1px dotted #000
+  }
+
+ 
