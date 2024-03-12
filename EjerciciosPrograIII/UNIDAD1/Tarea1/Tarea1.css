@@ -1,0 +1,20 @@
+body{
+    background-color: #478aff;
+}
+h1{
+    color: rgb(193, 193, 193);
+    
+}
+p{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    color:beige;
+    text-align: center;
+}
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

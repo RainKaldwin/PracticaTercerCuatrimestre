@@ -1,0 +1,29 @@
+h1{
+    text-align: left;
+    color:rgb(99, 186, 157);
+    text-decoration-style: wavy;
+    
+}
+h2{
+    text-align: left;
+}
+ul{
+    text-align: justify;
+}
+table{
+    border: 1;
+}
+th{
+    color:cadetblue;
+    text-align: left;
+    font-size: 160%;
+}
+li{
+    font-size: 120%;
+}
+img{
+    float:right;
+    width: 300px;
+    height: fit-content;
+    align-items: left   ;
+}

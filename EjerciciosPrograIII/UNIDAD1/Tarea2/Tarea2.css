@@ -1,0 +1,15 @@
+h1{
+    color: rgb(164, 123, 202);
+    text-align: center;
+    font-size: 600%;
+}
+p{
+    font-size: 300%;
+    font-family:times 'Times New Roman', Times, serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
