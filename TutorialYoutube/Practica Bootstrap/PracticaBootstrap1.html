@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica bootstrap 1</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!--=================CONTAINERS==================================-->
+
+    <!--Container border nos deja un contenedor de un tamanio particular-->
+    <div class="container border">Container border</div>
+
+    <!--Container fluid ocupara toda la pantalla arrancando de izquierda a derecha-->
+    <div class="container-fluid border">Container fluid</div> 
+
+    <!--Container md se comporta diferente dependiendo del tamanio de la pantalla-->
+    <div class="container-md">container -md</div>
+
+    <!--=================GRIDS==================================-->
+
+    <!--columnas, primero le damos un estilo para visualizarlas-->
+    <style>
+        [class="col"]{
+            padding: 1rem;
+            background-color: #33b5e5;
+            border:2px solid #fff;
+            color: #fff
+        }
+    </style>
+
+    <!--creacion de filas para las columnas-->
+    <div class="row">
+        <div class="col">Columna 1</div> <!--escribiendo col*2 hice dos columnas en una sola linea de codigo-->
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 3</div>
+        <div class="col">Columna 4</div>
+        <div class="col">Columna 5</div>
+        <div class="col">Columna 6</div>
+    </div>
+
+    <!--Columnas de diferentes tamanios utilizando col-[numero de tamanio]-->
+       <style>
+        [class="col-4"]{
+            padding: 1rem;
+            background-color: #e951c3;
+            border:2px solid #fff;
+            color: #fff
+        }
+    </style>
+
+    <div class="row">
+        <div class="col-4">Columna 1</div> 
+        <div class="col-4">Columna 2</div>
+        <!--Podemos hacer que html entienda automaticamente el tamanio que necesita la fila utilizando la palabra auto-->
+        <div class="col">Columna 3 auto </div>
+    </div>
+
+    <!--Generalmente lo que utilizaxmos son variables a las que les asignamos su respectivo breakpoint-->
+    <style>
+        [class="col-md-4"]{
+            padding: 1rem;
+            background-color: #e4e951;
+            border:2px solid #fff;
+            color: #fff
+        }
+    </style>
+    <!--En este caso le estamos asignando el tamanio [md-4] es decir mediano tamanio 4-->>
+    <div class="row">
+        <div class="col-md-4">Columna 1</div> 
+        <div class="col-md-4">Columna 2</div>
+        <div class="col-md-4">Columna 3</div> 
+        <div class="col-md-4">Columna 4</div>
+    </div>
+</body>
+</html>
