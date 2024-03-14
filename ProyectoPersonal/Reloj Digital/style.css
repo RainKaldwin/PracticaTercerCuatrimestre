@@ -1,0 +1,71 @@
+body{
+    /*traemos todo al centro*/
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /*Agregamos una imagen de fondo usando un url externo usando unsplash*/
+    background:
+    url("https://images.unsplash.com/photo-1544198365-f5d60b6d8190?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /*Aplicar los efectos de la opacidad de los elementos al fondo*/
+    background-size: cover;
+
+    /*Elimina las scrollbars de la pagina*/
+    overflow: hidden;
+}
+
+h2{
+    /*Todas las letras en Mayuscula*/
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color:white;
+}
+
+.reloj{
+    /*cambiamos el display a flex para que todo salga al lado del otro*/
+    display: flex;
+}
+
+.reloj div{
+    margin:5px;
+    position: relative;
+}
+
+.reloj span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /*Para darle sombra al texto primero se ingresa el parametro de la posicion horizontal, 
+    luego la posicion vertical, luego el radio de blur, el color y la transparencia*/
+    text-shadow: 2px 2px 4px rgba(0,0,0) .3;
+}
+
+.reloj .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.reloj #ampm{
+    bottom:0; 
+    position:absolute;
+    width:60px;
+    height: 30px;
+    font-size: 20px;
+    background: grey;
+}
