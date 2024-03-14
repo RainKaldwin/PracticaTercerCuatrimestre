@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaLoops",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.JavaLoops",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "FormatoImput",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.FormatoImput",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
             "name": "Arrays",
             "request": "launch",
             "mainClass": "w3School.JAVA.Notas.Arrays",
