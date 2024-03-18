@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TiposPrimitivos",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.TiposPrimitivos",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "LoopsP2",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.LoopsP2",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
             "name": "JavaLoops",
             "request": "launch",
             "mainClass": "HackerRanks.Java.JavaLoops",
