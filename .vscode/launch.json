@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tarea3",
+            "request": "launch",
+            "mainClass": "EjerciciosLaboIII.EjerciciosDeClase.U1.Tarea3.Tarea3",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "Tarea2",
+            "request": "launch",
+            "mainClass": "EjerciciosLaboIII.EjerciciosDeClase.U1.Tarea2",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "Tarea1",
+            "request": "launch",
+            "mainClass": "EjerciciosLaboIII.EjerciciosDeClase.U1.Tarea1",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "EndOfFile",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.EndOfFile",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "HackerRanks.Java.Main",
+            "projectName": "javascript_26e24fc3"
+        },
+        {
+            "type": "java",
             "name": "TiposPrimitivos",
             "request": "launch",
             "mainClass": "HackerRanks.Java.TiposPrimitivos",

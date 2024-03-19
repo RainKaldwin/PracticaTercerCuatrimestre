@@ -1,4 +1,4 @@
-package HackerRanks.Java;
+package EjerciciosLaboIII.HackerRanks.Java;
 import java.util.Scanner;
 
 class LoopsP2{
