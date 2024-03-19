@@ -1,0 +1,47 @@
+.row-mt-4{
+    text-align: center;
+    margin: top 10px;
+    margin-bottom: 10px;
+}
+
+
+.col{
+    padding: 1rem;
+    background-color: #33b5e5;
+    border:2px solid #fff;
+    color: #fff; 
+    display: block;
+    margin: 0 auto
+}
+
+.container-fluid{
+    font-size: large;
+    background-color: grey;
+    padding: 0;
+
+    
+}
+
+h2{
+    text-align: center;
+
+}
+
+input{
+    width: 100%; /* Adjust the width as per your requirement */
+    padding: 10px; /* Adding some padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+h1{
+    text-align: center;
+    color:grey;
+    
+}
+
+button{
+    width: 100%; /* Adjust the width as per your requirement */
+    padding: 10px; /* Adding some padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
