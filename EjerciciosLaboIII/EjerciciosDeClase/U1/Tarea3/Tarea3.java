@@ -27,13 +27,13 @@ for(int i =0;i<aCarrito.length;i++){
     String nombre = oScanner.next();
     System.out.println("Precio_Unitario:");
     double pre_Unitario = oScanner.nextDouble();
+    oScanner.next();
     System.out.println("Cantidad:");
     int cantidad = oScanner.nextInt();
     double total = pre_Unitario*cantidad;
 
     oCarrito = new Carrito(nombre, pre_Unitario, cantidad, total);
     aCarrito [i]= oCarrito;
-
 
 }
 oScanner.close();
