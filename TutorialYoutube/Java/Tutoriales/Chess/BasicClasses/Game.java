@@ -8,3 +8,5 @@ These codes are self-explanatory.
 You can have a look at the properties/variables 
 and methods of different classes.
 */
+
+package TutorialYoutube.Java.Tutoriales.Chess.BasicClasses;
