@@ -1,0 +1,31 @@
+
+:root{
+    --principal:#a295ab;
+    --secundario:#b48dd1;
+    --terciario:#c5bfc9;
+}
+
+.container{
+    background-color: var(--principal);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establecemos la altura al 100% de la altura de la ventana del navegador */
+    max-width: 600px; /* Tamaño máximo del contenedor */
+    font-size: 30px;
+    
+}
+
+.container-flex{
+    text-align: center;
+    background-color: var(--secundario);
+    border-style:solid;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: var(--terciario);
+}

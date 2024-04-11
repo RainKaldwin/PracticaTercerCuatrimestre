@@ -1,0 +1,19 @@
+#hola{
+    color:lightgreen;
+}
+
+.contenedor,h1{
+    border:1px solid;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding:10px;
+    width: 200px;
+    margin:10px;
+}
+
+
+/*
+el margin es del borde para afuera
+y el padding es del borde para adentro
+*/

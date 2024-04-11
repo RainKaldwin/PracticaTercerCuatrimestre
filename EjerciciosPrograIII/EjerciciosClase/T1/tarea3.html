@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!--
+            los formularios son un conjunto de ontroles 
+            mediantesw los cuales el usuario ingresa datos
+
+        -->
+
+        <form>
+            <h3>Ingresar clave fiscal</h3>
+            <div>
+                <label>CUIT-CUIL</label>
+            </div>
+            <input type="text" placeholder="CUIT/CUIL">
+            <div>
+                <input type="submit" value="siguiente"
+            </div>
+            <div>
+                <input type="checkbox">
+                <span>Mantenerme logeado</span>
+            </div>
+
+            <div>
+                 <p>Seleccione un servicio</p>
+                 <input type="radio" name="servicio"><span>Portal</span>
+                 <input type="radio" name="servicio"><span>Monotributo</span>
+                 <input type="radio" name="servicio"><span>Otro</span>
+            </div>
+
+            <div>
+                <p>contra</p>
+                <input type="password" placeholder="contra">
+            </div>
+
+            <div>
+                <p>Seleccione</p>
+                <select name="tipo">
+                    <option value=""></option>
+                    <option value="1">queso</option>
+                    <option value="2">otro</option>
+                    <option value="3">Pan</option>
+                </select>    
+            </div>
+            <div>
+                <p>numeros</p>
+                <input type="number" max="100" placeholder="Ingrese un numero">
+            </div>
+            <div>
+                <p>Text Area</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <p>Ingrese Archivo</p>
+                <input type="file">
+            </div>
+
+        </form>
+</body>
+</html>

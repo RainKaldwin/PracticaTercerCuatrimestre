@@ -1,0 +1,51 @@
+
+:root{
+    --Color-Primario:#B4C7F0;
+    --Color-Secundario:#5C6D93;
+    --Color-Terciario: #34373E;
+    --Color-Cuarto:#E8B643;
+    --Color-Quinto:#ffff;
+}
+
+
+#MainForm{
+    background-color: var(--Color-Primario);
+    font-family:Helvetica;
+    border-color: var(--Color-Terciario);
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+
+
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column; /* Dirección de los elementos (vertical) */
+    justify-content: center; /* Alinea verticalmente */
+    align-items: center; /* Alinea horizontalmente */
+    height: 300px; /* Altura del formulario */
+    
+}
+
+.Control{
+    color: var(--Color-Secundario);
+    font-weight: bold;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-color: var(--Color-Terciario);
+}
+
+#Formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Titulo{
+    font-size: 20;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    text-decoration:underline;
+    color: var(--Color-Quinto);
+    font-weight: bolder;
+}

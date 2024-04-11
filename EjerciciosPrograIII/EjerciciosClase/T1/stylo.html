@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!--
+        formas de darle estilo a las etiquetas
+            inline (definimos un atributo style y luego definir dentro el esticlo)
+            style
+            archivo
+            de arriba a abajo tiene prioridad en esta clasificacion
+
+            
+        -->
+
+        <!--inline-->
+        <p style="color: blue;">hola</p> 
+
+        <!--style (etiqueta)-->
+        <p> hola
+
+        <!--generalmente eso debe ir en el head-->
+        <style>
+            p{
+                color: red;
+            }
+        </style>
+        </p>
+
+        <!--archivo-->
+        <p id="hola">
+            hola
+        </p>
+
+        <!--
+            existe una diferencia
+            tambien existen las clases
+            lo utilizamos para reutilizar estilos
+            cuando queremos que varias tags compartan determinadas
+            caracteristicas utilizamos la clase
+            cuando queremos hacer una diferencia individual de cada uno usamos 
+            los id
+        -->
+    
+        <div class="contenedor">Este es el contenedor de ejemplo</div>
+        <div class="contenedor">mi otro div</div>
+
+        <h1>Holi</h1>
+
+
+</body>
+</html>

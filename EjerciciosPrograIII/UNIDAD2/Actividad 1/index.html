@@ -1,0 +1,39 @@
+<!--
+Ejercicio nº1
+Codificar pagina web que posea un formulario de dos campos, nombre,
+apellido, y un botón que diga “Mostrar” el cual cuando se presione se muestre un
+alert con el nombre y el apellido, concatenados.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Unidad 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="Formulario">
+            <fieldset id="MainForm">
+                        <div>
+                            <h1 id="Titulo">Ejercicio 1</h1>
+                        </div>
+                <form id="SubForm">
+                    <div>
+                        <input type="text" id="NombreImput" class="Control" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <input type="text" id="ApellidoImput" class="Control" placeholder="apellido">
+                    </div>
+                    <div>
+                    <input type="submit" id="MostrarOut" class="Control" onclick="MostrarUsuario()">
+                    </div>
+                </form>
+        </fieldset>
+        </div>
+        
+<script src="index.js"></script>
+</body>
+</html>

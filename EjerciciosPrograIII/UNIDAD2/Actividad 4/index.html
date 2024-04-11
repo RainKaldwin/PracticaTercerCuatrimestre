@@ -1,0 +1,38 @@
+<!--
+Ejercicio nº4
+Codificar página web en donde se presione en un botón que diga “registrar”,
+el cual habrá una ventana modal para que me permita ingresar un email válido, y al
+presionar en confirmar, el sitio deberá mostrar otro mensaje de confirmación. Utilizar
+la librería SweetAlert.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Unidad 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Incluimos SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div id="Formulario">
+        <fieldset id="MainForm">
+            <div>
+                <h1 id="Titulo">Ejercicio 4</h1>
+            </div>
+            <form id="SubForm">        
+                <div>
+                    <button id="Registrar" class="Control">Registrar</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+
+    <!-- Incluimos SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
